@@ -38,10 +38,18 @@ nav > img:last-of-type {
   display: none;
   margin-left: auto;
 }
-
+.small-screen-overlay {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
 .small-screen-nav {
   position: absolute;
-  top: 100%;
+  top: 2%;
   width: 90%;
   left: 0;
   right: 0;
@@ -55,9 +63,9 @@ nav > img:last-of-type {
   padding: 20px;
 }
 .nav-links-small-screen > .nav-link {
-  margin: 15px;
+  margin: 20px;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 650px) {
