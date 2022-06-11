@@ -16,3 +16,14 @@
   --VeryLightGray: hsl(0, 0%, 98%);
   --White: hsl(0, 0%, 100%);
 }
+
+.flex {
+  display: flex;
+}
+.padding {
+  padding: 0px 7%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
