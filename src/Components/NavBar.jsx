@@ -30,7 +30,7 @@ const NavBar = () => {
         <li className="nav-link">Blog</li>
         <li className="nav-link">Careers</li>
       </ul>
-      <p className="request-button">Request Invite</p>
+      <RequestButton />
       <img src={icon} alt="Toggle Icon" onClick={handleSmallScreenMenu} />
       {smallScreenMenu === true ? (
         <div className="small-screen-overlay">
@@ -50,3 +50,7 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+export const RequestButton = ({ context }) => {
+  return <p className={`request-button ${context}`}>Request Invite</p>;
+};

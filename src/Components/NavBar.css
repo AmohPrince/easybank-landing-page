@@ -46,6 +46,7 @@ nav > img:last-of-type {
   left: 0;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.75);
+  z-index: 100;
 }
 .small-screen-nav {
   position: absolute;
